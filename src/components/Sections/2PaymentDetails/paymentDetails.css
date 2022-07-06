@@ -1,0 +1,28 @@
+.paymentdetails__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paymentdetails__section-loading {
+    margin: 2rem 0;
+}
+
+.paymentdetails__section-next {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* CopyToClipboard box */
+.MuiInput-input.MuiInputBase-input {
+    color: var(--color-white);
+}
+
+.MuiInput-underline::after {
+    border-bottom-color: var(--color-light) !important;
+}
+
+.MuiFormLabel-filled {
+    color: var(--color-light) !important;
+}

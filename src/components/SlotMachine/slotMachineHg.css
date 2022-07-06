@@ -1,0 +1,31 @@
+.slotmachine__container-hidden {
+  display: none;
+  opacity: 0;
+}
+
+.slotmachine__container {
+  perspective: 800px;
+  transform-style: preserve3d;
+}
+
+.slotmachine__container-content {
+  animation: slotmachine__container-content 4s ease-out ;
+  animation-fill-mode: forwards;
+  display: flex;
+}
+
+@keyframes slotmachine__container-content {
+  0% {
+    opacity: 0;
+  }
+  1% {
+      transform: translateZ(-1000em);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;        
+  }
+}

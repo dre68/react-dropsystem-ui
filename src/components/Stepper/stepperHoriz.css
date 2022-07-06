@@ -1,0 +1,12 @@
+.MuiBox-root {
+    margin: 1rem 0;
+}
+
+.MuiStepLabel-label {
+    color: var(--color-light) !important;
+}
+
+.MuiStepLabel-label.Mui-active {
+    color: var(--color-white) !important;
+}
+

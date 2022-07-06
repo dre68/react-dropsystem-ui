@@ -1,0 +1,23 @@
+diff --git a/node_modules/slot-machine-gen/src/slot-machine.js b/node_modules/slot-machine-gen/src/slot-machine.js
+index d9a98ae..4b088c1 100644
+--- a/node_modules/slot-machine-gen/src/slot-machine.js
++++ b/node_modules/slot-machine-gen/src/slot-machine.js
+@@ -77,7 +77,7 @@ function SlotMachine(container, reels, callback, options) {
+       div.appendChild(elm);
+     }
+ 
+-    div.addEventListener('click', () => spinReels());
++    // div.addEventListener('click', () => spinReels());
+ 
+     container.appendChild(div);
+   }
+@@ -254,7 +254,8 @@ function SlotMachine(container, reels, callback, options) {
+         payLine.push(selected);
+ 
+         window.clearTimeout(timer);
+-      }, self.options.animSpeed * getRandomInt(1, 4));
++      }, self.options.animSpeed);
++      // }, self.options.animSpeed * getRandomInt(1, 4));
+     });
+   }
+ 

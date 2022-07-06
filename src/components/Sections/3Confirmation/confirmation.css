@@ -1,0 +1,19 @@
+.my-lottie-player {
+    margin-top: -4rem !important;
+}
+
+.confirmation__section-footer {
+    text-align: center;
+    margin-top: -3rem;
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    .my-lottie-player {
+        margin-top: -3rem !important;
+    }    
+
+    .confirmation__section-footer {
+        margin-top: -2rem;
+    }
+}
