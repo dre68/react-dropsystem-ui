@@ -1,5 +1,5 @@
 import React from 'react';
-import SlotMachine from './dist/react-slot-machine';
+import SlotMachine from './distSlotMachine/react-slot-machine';
 import './slotMachineHg.css';
 import SlotmachineHgLogic from './SlotmachineHgLogic';
 
